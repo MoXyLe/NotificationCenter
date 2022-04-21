@@ -1,12 +1,12 @@
 ## Running and using this project
 
-Spin up the containers:
+Spin up the containers (additional task №3):
 
 ```sh
 $ docker-compose up -d --build
 ```
 
-Open your browser to [http://localhost:8004/docs/](http://localhost:8004/docs/) to view the docs for API or to [http://localhost:5556](http://localhost:5556) to view the Flower dashboard for Celery tasks.
+Open your browser to [http://localhost:8004/docs/](http://localhost:8004/docs/) to view the docs for API (additional task №5) or to [http://localhost:5556](http://localhost:5556) to view the Flower dashboard for Celery tasks.
 
 ## API methods
 
