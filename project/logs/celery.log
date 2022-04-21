@@ -1,0 +1,601 @@
+[2022-04-21 01:23:52,922: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 01:23:52,932: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 01:23:53,956: INFO/MainProcess] mingle: all alone
+[2022-04-21 01:23:53,967: INFO/MainProcess] celery@26dabddd6939 ready.
+[2022-04-21 01:23:58,654: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 01:37:42,178: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 01:37:42,188: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 01:37:43,211: INFO/MainProcess] mingle: all alone
+[2022-04-21 01:37:43,223: INFO/MainProcess] celery@c036c0581b87 ready.
+[2022-04-21 01:37:47,899: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 01:42:21,678: INFO/MainProcess] Received task: create_task[d15eef47-3026-48f6-b2a2-711e390d8ede]  
+[2022-04-21 01:42:31,700: ERROR/ForkPoolWorker-15] Task create_task[d15eef47-3026-48f6-b2a2-711e390d8ede] raised unexpected: NameError("name 'tasktype' is not defined")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 15, in create_task
+    print("Task finished" + str(tasktype))
+NameError: name 'tasktype' is not defined
+[2022-04-21 01:43:36,423: INFO/MainProcess] Received task: create_task[f161f163-9ff4-4e83-9cb9-09dfe0b7b2b4]  
+[2022-04-21 01:43:56,447: ERROR/ForkPoolWorker-15] Task create_task[f161f163-9ff4-4e83-9cb9-09dfe0b7b2b4] raised unexpected: NameError("name 'tasktype' is not defined")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 15, in create_task
+    print("Task finished" + str(tasktype))
+NameError: name 'tasktype' is not defined
+[2022-04-21 01:45:35,305: INFO/MainProcess] Received task: create_task[af0ee39a-7a60-4eaf-a5d9-f195fa4921f1]  
+[2022-04-21 01:45:45,322: ERROR/ForkPoolWorker-15] Task create_task[af0ee39a-7a60-4eaf-a5d9-f195fa4921f1] raised unexpected: NameError("name 'tasktype' is not defined")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 15, in create_task
+    print("Task finished" + str(task_type))
+NameError: name 'tasktype' is not defined
+[2022-04-21 01:46:32,247: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 01:46:32,258: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 01:46:33,282: INFO/MainProcess] mingle: all alone
+[2022-04-21 01:46:33,294: INFO/MainProcess] celery@c036c0581b87 ready.
+[2022-04-21 01:46:37,977: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 01:46:43,544: INFO/MainProcess] Received task: create_task[8d0daa7e-5a8c-4237-b66d-ff0201c27eed]  
+[2022-04-21 01:46:53,551: WARNING/ForkPoolWorker-15] Task finished1
+[2022-04-21 01:46:53,554: INFO/ForkPoolWorker-15] Task create_task[8d0daa7e-5a8c-4237-b66d-ff0201c27eed] succeeded in 10.006900205999955s: True
+[2022-04-21 01:49:11,419: INFO/MainProcess] Received task: create_task[8ead4946-8613-4991-8e40-677a752fed97]  
+[2022-04-21 01:49:21,432: WARNING/ForkPoolWorker-15] Task finished1
+[2022-04-21 01:49:21,433: INFO/ForkPoolWorker-15] Task create_task[8ead4946-8613-4991-8e40-677a752fed97] succeeded in 10.011595167999985s: True
+[2022-04-21 01:53:25,771: INFO/MainProcess] Received task: create_task[43d3582a-0e0b-41c9-b4dd-1ab2a04468b7]  
+[2022-04-21 01:53:55,804: WARNING/ForkPoolWorker-15] Task finished3
+[2022-04-21 01:53:55,806: INFO/ForkPoolWorker-15] Task create_task[43d3582a-0e0b-41c9-b4dd-1ab2a04468b7] succeeded in 30.031633435000003s: True
+[2022-04-21 03:53:20,540: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 03:53:20,550: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 03:53:21,572: INFO/MainProcess] mingle: all alone
+[2022-04-21 03:53:21,584: INFO/MainProcess] celery@c036c0581b87 ready.
+[2022-04-21 03:53:26,345: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 03:56:25,019: INFO/MainProcess] Received task: create_task[3ee77a64-a177-4855-83e6-5d27eb7562d9]  
+[2022-04-21 03:56:35,035: INFO/ForkPoolWorker-15] Task create_task[3ee77a64-a177-4855-83e6-5d27eb7562d9] succeeded in 10.012534641999991s: True
+[2022-04-21 04:03:18,034: INFO/MainProcess] Received task: create_task[e671092f-dc8c-40f9-b9c2-f4dd7db2def4]  
+[2022-04-21 04:03:28,047: INFO/ForkPoolWorker-15] Task create_task[e671092f-dc8c-40f9-b9c2-f4dd7db2def4] succeeded in 10.009381056000166s: True
+[2022-04-21 04:05:57,176: INFO/MainProcess] Received task: create_task[8a80b733-31b9-427d-ba72-904886375561]  
+[2022-04-21 04:06:07,188: INFO/ForkPoolWorker-15] Task create_task[8a80b733-31b9-427d-ba72-904886375561] succeeded in 10.009765701000106s: True
+[2022-04-21 04:07:18,777: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 04:07:18,790: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 04:07:19,817: INFO/MainProcess] mingle: all alone
+[2022-04-21 04:07:19,828: INFO/MainProcess] celery@c036c0581b87 ready.
+[2022-04-21 04:07:24,587: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 04:07:30,311: INFO/MainProcess] Received task: create_task[575ed89c-6fc1-43fd-a6a0-41c551e20131]  
+[2022-04-21 04:07:40,336: ERROR/ForkPoolWorker-15] Task create_task[575ed89c-6fc1-43fd-a6a0-41c551e20131] raised unexpected: ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbff275dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.9/http/client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1008, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.9/http/client.py", line 948, in send
+    self.connect()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7efbff275dc0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbff275dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 16, in create_task
+    r = requests.post('http://localhost:8000/new_client/', data={"phone_number": 1111111111, "tag": "celery", "timezone": -5})
+  File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbff275dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2022-04-21 04:23:11,284: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 04:23:11,296: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 04:23:12,320: INFO/MainProcess] mingle: all alone
+[2022-04-21 04:23:12,333: INFO/MainProcess] celery@c036c0581b87 ready.
+[2022-04-21 04:23:16,793: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 04:26:12,130: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 04:26:12,142: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 04:26:13,164: INFO/MainProcess] mingle: all alone
+[2022-04-21 04:26:13,175: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 04:26:17,863: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 04:28:08,574: INFO/MainProcess] Received task: create_task[068e237f-b26f-4cf5-ad2b-19c997f709a9]  
+[2022-04-21 04:28:18,599: ERROR/ForkPoolWorker-15] Task create_task[068e237f-b26f-4cf5-ad2b-19c997f709a9] raised unexpected: ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecd86acbb0>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.9/http/client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.9/http/client.py", line 1008, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.9/http/client.py", line 948, in send
+    self.connect()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fecd86acbb0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecd86acbb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 16, in create_task
+    r = requests.post('http://localhost:8004/new_client/', data={"phone_number": 1111111111, "tag": "celery", "timezone": -5})
+  File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /new_client/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecd86acbb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2022-04-21 04:38:36,915: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 04:38:36,928: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 04:38:37,950: INFO/MainProcess] mingle: all alone
+[2022-04-21 04:38:37,961: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 04:38:42,407: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 04:38:58,560: INFO/MainProcess] Received task: create_task[e041681a-fd39-4ccb-91ad-7788b14a4816]  
+[2022-04-21 04:39:09,036: WARNING/ForkPoolWorker-15] <!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="ru"><head><meta content="&#1055;&#1086;&#1080;&#1089;&#1082; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1080; &#1074; &#1080;&#1085;&#1090;&#1077;&#1088;&#1085;&#1077;&#1090;&#1077;: &#1074;&#1077;&#1073; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1099;, &#1082;&#1072;&#1088;&#1090;&#1080;&#1085;&#1082;&#1080;, &#1074;&#1080;&#1076;&#1077;&#1086; &#1080; &#1084;&#1085;&#1086;&#1075;&#1086;&#1077; &#1076;&#1088;&#1091;&#1075;&#1086;&#1077;." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){window.google={kEI:'7d9gYoKaEOPErgSC1Lf4Bg',kEXPI:'0,1302536,56873,6059,206,4804,2316,383,246,5,1354,4013,1238,1122515,1197736,380755,16114,28684,17572,4859,1361,9291,3022,4752,12834,4998,13228,3847,4192,6430,14763,7978,5081,1593,1279,2453,289,149,1103,840,6297,3514,606,2023,2298,14669,3227,2845,7,4773,12677,11624,4696,1851,2614,3783,9359,3,346,230,6459,150,13974,4,1528,2304,7039,25073,2658,7357,11443,2215,4437,16786,651,5158,2548,4094,4052,3,3541,1,16807,25347,2,8982,1,5039,1931,5589,744,5852,10463,1160,5679,1020,2381,2718,18297,2,6,7718,4568,5365,891,6720,14083,2618,1252,4606,2,6,1221,11861,3107,1538,2794,6089,853,542,445,2,2,1,24779,1416,1,436,5776,2273,106,2566,648,1910,5,1266,187,637,162,129,60,2260,594,858,4459,4454,1866,7341,1399,1222,782,2,6,2660,2,1,6056,1144,3110,94,1784,831,4971,1492,19,588,24,778,100,1393,1013,1816,1424,340,2941,352,536,164,1048,2536,428,621,210,884,605,1917,151,1092,876,23,2,1610,24,813,1348,851,349,185,522,218,317,1402,418,2146,151,485,5,5436546,1369,5995426,2801216,882,444,3,1877,1,2562,1,748,141,795,563,1,4265,1,1,2,1331,4142,2609,155,17,13,72,139,4,2,20,2,169,13,19,46,5,39,644,29,2,2,1,2,1,2,2,7,4,1,2,2,2,2,2,2,353,513,186,1,1,158,3,2,2,2,2,2,4,2,3,3,269,1601,141,1002,312,374,18,2,5,4,8,4,6,6,2,10,2,1,2,2,4,18,23951198,4038575,3,3112,3,450,1964,1008,1927,159,1358,4726,3,2664,416,4411,2130,1276,1684,481215,284609',kBL:'UvNk'};google.sn='webhp';google.kHL='ru';})();(function(){
+var f=this||self;var h,k=[];function l(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||h}function m(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}
+function n(a,b,c,d,g){var e="";c||-1!==b.search("&ei=")||(e="&ei="+l(d),-1===b.search("&lei=")&&(d=m(d))&&(e+="&lei="+d));d="";!c&&f._cshid&&-1===b.search("&cshid=")&&"slh"!==a&&(d="&cshid="+f._cshid);c=c||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+b+e+"&zx="+Date.now()+d;/^http:/i.test(c)&&"https:"===window.location.protocol&&(google.ml&&google.ml(Error("a"),!1,{src:c,glmm:1}),c="");return c};h=google.kEI;google.getEI=l;google.getLEI=m;google.ml=function(){return null};google.log=function(a,b,c,d,g){if(c=n(a,b,c,d,g)){a=new Image;var e=k.length;k[e]=a;a.onerror=a.onload=a.onabort=function(){delete k[e]};a.src=c}};google.logUrl=n;}).call(this);(function(){
+google.y={};google.sy=[];google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.sx=function(a){google.sy.push(a)};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};google.bx=!1;google.lx=function(){};}).call(this);google.f={};(function(){
+document.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a="1"===c||"q"===c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&&a!==document.documentElement;a=a.parentElement)if("A"===a.tagName){a="1"===a.getAttribute("data-nohref");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}
+</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#1558d6}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#4b11a8;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#1558d6}a:visited{color:#4b11a8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#f8f9fa;border:solid 1px;border-color:#dadce0 #70757a #70757a #dadce0;height:30px}.lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#dadce0}.lst:focus{outline:none}.tiah{width:458px}</style><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){window.google.erd={jsr:1,bv:1569,de:true};
+var f=this||self;var g,h=null!=(g=f.mei)?g:1,m,n=null!=(m=f.sdo)?m:!0,p=0,q,r=google.erd,u=r.jsr;google.ml=function(a,b,d,k,c){c=void 0===c?2:c;b&&(q=a&&a.message);if(google.dl)return google.dl(a,c,d),null;if(0>u){window.console&&console.error(a,d);if(-2===u)throw a;b=!1}else b=!a||!a.message||"Error loading script"===a.message||p>=h&&!k?!1:!0;if(!b)return null;p++;d=d||{};var e=c;c=encodeURIComponent;b="/gen_204?atyp=i&ei="+c(google.kEI);google.kEXPI&&(b+="&jexpid="+c(google.kEXPI));b+="&srcpg="+c(google.sn)+"&jsr="+c(r.jsr)+"&bver="+c(r.bv)+("&jsel="+e);e=a.lineNumber;void 0!==e&&(b+="&line="+
+e);var l=a.fileName;l&&(b+="&script="+c(l),e&&l===window.location.href&&(e=document.documentElement.outerHTML.split("\n")[e],b+="&cad="+c(e?e.substring(0,300):"No script found.")));for(var t in d)b+="&",b+=c(t),b+="=",b+=c(d[t]);b=b+"&emsg="+c(a.name+": "+a.message);b=b+"&jsst="+c(a.stack||"N/A");12288<=b.length&&(b=b.substr(0,12288));a=b;k||google.log(0,"",a);return a};window.onerror=function(a,b,d,k,c){q!==a&&(a=c instanceof Error?c:Error(a),void 0===d||"lineNumber"in a||(a.lineNumber=d),void 0===b||"fileName"in a||(a.fileName=b),google.ml(a,!1,void 0,!1,"SyntaxError"===a.name||"SyntaxError"===a.message.substring(0,11)?2:0));q=null;n&&p>=h&&(window.onerror=null)};})();</script></head><body bgcolor="#fff"><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){var src='/images/nav_logo229.png';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}
+if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}
+}
+})();</script><div id="mngb"><div id=gbar><nobr><b class=gb1>&#1055;&#1086;&#1080;&#1089;&#1082;</b> <a class=gb1 href="https://www.google.ru/imghp?hl=ru&tab=wi">&#1050;&#1072;&#1088;&#1090;&#1080;&#1085;&#1082;&#1080;</a> <a class=gb1 href="https://maps.google.ru/maps?hl=ru&tab=wl">&#1050;&#1072;&#1088;&#1090;&#1099;</a> <a class=gb1 href="https://play.google.com/?hl=ru&tab=w8">Play</a> <a class=gb1 href="https://www.youtube.com/?gl=RU&tab=w1">YouTube</a> <a class=gb1 href="https://news.google.com/?tab=wn">&#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">&#1055;&#1086;&#1095;&#1090;&#1072;</a> <a class=gb1 href="https://drive.google.com/?tab=wo">&#1044;&#1080;&#1089;&#1082;</a> <a class=gb1 style="text-decoration:none" href="https://www.google.ru/intl/ru/about/products?tab=wh"><u>&#1045;&#1097;&#1105;</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.ru/history/optout?hl=ru" class=gb4>&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103; &#1074;&#1077;&#1073;-&#1087;&#1086;&#1080;&#1089;&#1082;&#1072;</a> | <a  href="/preferences?hl=ru" class=gb4>&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=ru&passive=true&continue=https://www.google.com/&ec=GAZAAQ" class=gb4>&#1042;&#1086;&#1081;&#1090;&#1080;</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div><center><br clear="all" id="lgpd"><div id="lga"><img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo"><br><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="ru" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><div style="position:relative;zoom:1"><input class="lst tiah" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000;padding-right:38px" autocomplete="off" value="" title="&#1055;&#1086;&#1080;&#1089;&#1082; &#1074; Google" maxlength="2048" name="q" size="57"><img src="/textinputassistant/tia.png" style="position:absolute;cursor:pointer;right:5px;top:4px;z-index:300" data-script-url="/textinputassistant/11/ru_tia.js" id="tsuid1" alt="" height="23" width="27"><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){var id='tsuid1';document.getElementById(id).onclick = function(){var s = document.createElement('script');s.src = this.getAttribute('data-script-url');(document.getElementById('xjsc')||document.body).appendChild(s);};})();</script></div></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="&#1055;&#1086;&#1080;&#1089;&#1082; &#1074; Google" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" id="tsuid2" value="&#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1105;&#1090;!" name="btnI" type="submit"><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){var id='tsuid2';document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}
+else top.location='/doodles/';};})();</script><input value="AHkkrS4AAAAAYmDt_Xwk7O7iPcGpLw2W3_xz3wkwMsCm" name="iflsig" type="hidden"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=ru&amp;authuser=0">&#1056;&#1072;&#1089;&#1096;&#1080;&#1088;&#1077;&#1085;&#1085;&#1099;&#1081; &#1087;&#1086;&#1080;&#1089;&#1082;</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){
+var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="WqQANb"><a href="http://www.google.ru/intl/ru/services/">&#1056;&#1077;&#1096;&#1077;&#1085;&#1080;&#1103; &#1076;&#1083;&#1103; &#1073;&#1080;&#1079;&#1085;&#1077;&#1089;&#1072;</a><a href="/intl/ru/about.html">&#1042;&#1089;&#1105; &#1086; Google</a><a href="https://www.google.com/setprefdomain?prefdom=RU&amp;prev=https://www.google.ru/&amp;sig=K_CzUgwyoZmqLu5nhjetjMkBAuIrQ%3D">Google.ru</a></div></div><p style="font-size:8pt;color:#70757a">&copy; 2022 - <a href="/intl/ru/policies/privacy/">&#1050;&#1086;&#1085;&#1092;&#1080;&#1076;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100;</a> - <a href="/intl/ru/policies/terms/">&#1059;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103;</a></p></span></center><script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){window.google.cdo={height:757,width:1440};(function(){
+var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();</script> <script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){google.xjs={ck:'',cs:'',excm:[]};})();</script>  <script nonce="0kVihgnUPusz8mHzRh7Gnw==">(function(){var u='/xjs/_/js/k\x3dxjs.hp.en.oaJ50Ci_KkA.O/am\x3dAOAJAEACkA/d\x3d1/ed\x3d1/esmo\x3d1/rs\x3dACT90oEikH4tPylXHjKuezu1eBpsIt4ljQ/m\x3dsb_he,d';
+var d=this||self,e=function(a){return a};var g;var l=function(a,b){this.g=b===h?a:""};l.prototype.toString=function(){return this.g+""};var h={};
+function n(){var a=u;google.lx=function(){p(a);google.lx=function(){}};google.bx||google.lx()}
+function p(a){google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);if(void 0===g){b=null;var k=d.trustedTypes;if(k&&k.createPolicy){try{b=k.createPolicy("goog#html",{createHTML:e,createScript:e,createScriptURL:e})}catch(q){d.console&&d.console.error(q.message)}g=b}else g=b}a=(b=g)?b.createScriptURL(a):a;a=new l(a,h);c.src=a instanceof l&&a.constructor===l?a.g:"type_error:TrustedResourceUrl";var f,m;(f=(a=null==(m=(f=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:m.call(f,"script[nonce]"))?a.nonce||a.getAttribute("nonce")||"":"")&&c.setAttribute("nonce",f);document.body.appendChild(c);google.psa=!0};google.xjsu=u;setTimeout(function(){n()},0);})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.jl={attn:false,blt:'none',chnk:0,dw:false,dwu:true,emtn:0,end:0,ine:false,injs:'none',injt:0,lls:'default',pdt:0,rep:0,snet:true,strt:0,ubm:false,uwp:true};})();(function(){var pmc='{\x22d\x22:{},\x22sb_he\x22:{\x22agen\x22:true,\x22cgen\x22:true,\x22client\x22:\x22heirloom-hp\x22,\x22dh\x22:true,\x22dhqt\x22:true,\x22ds\x22:\x22\x22,\x22ffql\x22:\x22ru\x22,\x22fl\x22:true,\x22host\x22:\x22google.com\x22,\x22isbh\x22:28,\x22jsonp\x22:true,\x22msgs\x22:{\x22cibl\x22:\x22&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1087;&#1086;&#1080;&#1089;&#1082;&#1086;&#1074;&#1099;&#1081; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089;\x22,\x22dym\x22:\x22&#1042;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;, &#1074;&#1099; &#1080;&#1084;&#1077;&#1083;&#1080; &#1074; &#1074;&#1080;&#1076;&#1091;:\x22,\x22lcky\x22:\x22&#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1105;&#1090;!\x22,\x22lml\x22:\x22&#1055;&#1086;&#1076;&#1088;&#1086;&#1073;&#1085;&#1077;&#1077;...\x22,\x22oskt\x22:\x22&#1069;&#1082;&#1088;&#1072;&#1085;&#1085;&#1072;&#1103; &#1082;&#1083;&#1072;&#1074;&#1080;&#1072;&#1090;&#1091;&#1088;&#1072;\x22,\x22psrc\x22:\x22&#1069;&#1090;&#1086;&#1090; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089; &#1073;&#1099;&#1083; &#1091;&#1076;&#1072;&#1083;&#1077;&#1085; &#1080;&#1079; &#1074;&#1072;&#1096;&#1077;&#1081; \\u003Ca href\x3d\\\x22/history\\\x22\\u003E&#1080;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080; &#1074;&#1077;&#1073;-&#1087;&#1086;&#1080;&#1089;&#1082;&#1072;\\u003C/a\\u003E\x22,\x22psrl\x22:\x22&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;\x22,\x22sbit\x22:\x22&#1055;&#1086;&#1080;&#1089;&#1082; &#1087;&#1086; &#1082;&#1072;&#1088;&#1090;&#1080;&#1085;&#1082;&#1077;\x22,\x22srch\x22:\x22&#1055;&#1086;&#1080;&#1089;&#1082; &#1074; Google\x22},\x22ovr\x22:{},\x22pq\x22:\x22\x22,\x22refpd\x22:true,\x22rfs\x22:[],\x22sbas\x22:\x220 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08)\x22,\x22sbpl\x22:16,\x22sbpr\x22:16,\x22scd\x22:10,\x22stok\x22:\x22dUSSEcsw9NYiheDzhsa00ELHWUo\x22,\x22uhde\x22:false}}';google.pmc=JSON.parse(pmc);})();</script>        </body></html>
+[2022-04-21 04:39:09,039: INFO/ForkPoolWorker-15] Task create_task[e041681a-fd39-4ccb-91ad-7788b14a4816] succeeded in 10.475686416999451s: '<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="ru"><head><meta content="&#1055;&#1086;&#1080;&#1089;&#1082; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1080; &#1074; &#1080;&#1085;&#1090;&#1077;&#1088;&#1085;&#1077;&#1090;&#1077;: &#1074;&#1077;&#1073; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1099;, &#1082;&#1072;&#1088;&#1090;&#1080;&#1085;&#1082;&#1080;, &#1074;&#1080;&#1076;&#1077;&#1086; &#1080; &#1084;&#1085;&#1086;&#1075;&#1086;&#1077; &#1076;&#1088;&#1091;&#1075;&#1086;&#1077;." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script...'
+[2022-04-21 05:19:04,163: INFO/MainProcess] Received task: create_task[567fcc88-8198-47f4-9221-a3720e061a8a]  
+[2022-04-21 05:19:04,170: ERROR/ForkPoolWorker-15] Task create_task[567fcc88-8198-47f4-9221-a3720e061a8a] raised unexpected: TypeError("create_task() missing 1 required positional argument: 'task_type'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: create_task() missing 1 required positional argument: 'task_type'
+[2022-04-21 05:19:35,044: INFO/MainProcess] Received task: create_task[5d1e8ccc-0230-4f50-a0a8-1b040ed1b693]  
+[2022-04-21 05:19:35,048: ERROR/ForkPoolWorker-15] Task create_task[5d1e8ccc-0230-4f50-a0a8-1b040ed1b693] raised unexpected: TypeError("create_task() missing 1 required positional argument: 'task_type'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: create_task() missing 1 required positional argument: 'task_type'
+[2022-04-21 05:20:37,102: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:20:37,116: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:20:38,139: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:20:38,153: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:20:42,507: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:21:40,708: INFO/MainProcess] Received task: create_task[ccdcd285-1f86-4ad3-ab87-cc557ad8b853]  
+[2022-04-21 05:21:42,729: ERROR/ForkPoolWorker-15] Task create_task[ccdcd285-1f86-4ad3-ab87-cc557ad8b853] raised unexpected: AttributeError("'create_mailing_task' object has no attribute 'id'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 20, in create_mailing_task
+    mailing_list = db.query(models.MailingList).filter(models.MailingList.task_id == self.id).first()
+AttributeError: 'create_mailing_task' object has no attribute 'id'
+[2022-04-21 05:22:10,812: INFO/MainProcess] Received task: create_task[e3046d3a-f253-4a76-a8b8-0fefa880387b]  
+[2022-04-21 05:22:12,820: ERROR/ForkPoolWorker-15] Task create_task[e3046d3a-f253-4a76-a8b8-0fefa880387b] raised unexpected: AttributeError("'create_mailing_task' object has no attribute 'id'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 20, in create_mailing_task
+    mailing_list = db.query(models.MailingList).filter(models.MailingList.task_id == self.id).first()
+AttributeError: 'create_mailing_task' object has no attribute 'id'
+[2022-04-21 05:23:35,869: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:23:35,880: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:23:36,905: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:23:36,917: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:23:41,321: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:24:27,469: INFO/MainProcess] Received task: create_task[c503f0ce-dcb5-4e70-a037-1598a50e2284]  
+[2022-04-21 05:24:29,487: ERROR/ForkPoolWorker-15] Task create_task[c503f0ce-dcb5-4e70-a037-1598a50e2284] raised unexpected: AttributeError("'create_mailing_task' object has no attribute 'id'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 20, in create_mailing_task
+    mailing_list = db.query(models.MailingList).filter(models.MailingList.task_id == self.id).first()
+AttributeError: 'create_mailing_task' object has no attribute 'id'
+[2022-04-21 05:27:59,743: INFO/MainProcess] Received task: create_task[43f8f773-8834-44d9-985d-d36803b4a7b2]  
+[2022-04-21 05:28:01,753: ERROR/ForkPoolWorker-15] Task create_task[43f8f773-8834-44d9-985d-d36803b4a7b2] raised unexpected: AttributeError("'create_mailing_task' object has no attribute 'id'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 20, in create_mailing_task
+    mailing_list = db.query(models.MailingList).filter(models.MailingList.task_id == self.request.id).first()
+AttributeError: 'create_mailing_task' object has no attribute 'id'
+[2022-04-21 05:30:26,128: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:30:26,138: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:30:27,160: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:30:27,174: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:30:31,444: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:31:13,036: INFO/MainProcess] Received task: create_task[ac2bb574-3089-4329-b7a0-5b18e9fccff9]  
+[2022-04-21 05:31:15,069: ERROR/ForkPoolWorker-15] Task create_task[ac2bb574-3089-4329-b7a0-5b18e9fccff9] raised unexpected: TypeError("'MailingList' object is not subscriptable")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 23, in create_mailing_task
+    if mailing_list["start_time"] > time.time():
+TypeError: 'MailingList' object is not subscriptable
+[2022-04-21 05:32:19,638: INFO/MainProcess] Received task: create_task[e8cc3be1-088a-489b-addf-ab62a220069d]  
+[2022-04-21 05:32:21,658: ERROR/ForkPoolWorker-15] Task create_task[e8cc3be1-088a-489b-addf-ab62a220069d] raised unexpected: TypeError("'MailingList' object is not subscriptable")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 23, in create_mailing_task
+    if mailing_list.start_time > time.time():
+TypeError: 'MailingList' object is not subscriptable
+[2022-04-21 05:33:08,461: INFO/MainProcess] Received task: create_task[6b5b940d-ef68-4733-ad86-d9c491ddb667]  
+[2022-04-21 05:33:10,478: ERROR/ForkPoolWorker-15] Task create_task[6b5b940d-ef68-4733-ad86-d9c491ddb667] raised unexpected: TypeError("'MailingList' object is not subscriptable")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/worker.py", line 23, in create_mailing_task
+    if mailing_list:
+TypeError: 'MailingList' object is not subscriptable
+[2022-04-21 05:33:56,296: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:33:56,306: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:33:57,328: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:33:57,340: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:34:01,784: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:34:04,487: INFO/MainProcess] Received task: create_task[894d8bee-ea2b-49e4-8b0d-4eabd6ffd7ee]  
+[2022-04-21 05:34:06,494: INFO/ForkPoolWorker-15] Task create_task[894d8bee-ea2b-49e4-8b0d-4eabd6ffd7ee] succeeded in 2.0049216279985558s: '894d8bee-ea2b-49e4-8b0d-4eabd6ffd7ee'
+[2022-04-21 05:42:27,264: INFO/MainProcess] Received task: create_task[24107a26-6e57-4504-863e-54cdd68375b9]  
+[2022-04-21 05:42:29,270: INFO/ForkPoolWorker-15] Task create_task[24107a26-6e57-4504-863e-54cdd68375b9] succeeded in 2.0030441369999608s: '24107a26-6e57-4504-863e-54cdd68375b9'
+[2022-04-21 05:43:27,869: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:43:27,881: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:43:28,903: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:43:28,916: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:43:33,337: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:43:58,952: INFO/MainProcess] Received task: create_task[0835d224-a69d-4260-a16d-6bf06bdb171c]  
+[2022-04-21 05:45:23,084: INFO/ForkPoolWorker-15] Task create_task[0835d224-a69d-4260-a16d-6bf06bdb171c] succeeded in 84.12926938199962s: None
+[2022-04-21 05:48:25,654: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:48:25,664: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:48:26,686: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:48:26,699: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:48:28,510: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 318, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.9/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 599, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/loops.py", line 83, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.9/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 688, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 698, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 3505, in parse_response
+    response = self._execute(conn, conn.read_response)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 3479, in _execute
+    return command(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2022-04-21 05:48:28,526: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2022-04-21 05:48:40,540: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 4.00 seconds... (2/100)
+
+[2022-04-21 05:48:54,557: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 6.00 seconds... (3/100)
+
+[2022-04-21 05:49:10,575: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 8.00 seconds... (4/100)
+
+[2022-04-21 05:49:26,514: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 05:49:26,525: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 05:49:27,548: INFO/MainProcess] mingle: all alone
+[2022-04-21 05:49:27,561: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 05:49:31,921: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 05:49:39,617: INFO/MainProcess] Received task: create_task[2c9aee6e-bef9-49cb-b3a1-e175d9264929]  
+[2022-04-21 05:50:40,060: INFO/ForkPoolWorker-15] Task create_task[2c9aee6e-bef9-49cb-b3a1-e175d9264929] succeeded in 60.44049538699983s: 'It\'s mailing time!'
+[2022-04-21 06:39:59,703: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 06:39:59,713: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 06:40:00,736: INFO/MainProcess] mingle: all alone
+[2022-04-21 06:40:00,748: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 06:40:05,217: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 06:42:13,360: INFO/MainProcess] Received task: create_task[29c153ce-65c5-48c0-bace-828bdc3f9a9c]  
+[2022-04-21 06:42:15,387: INFO/ForkPoolWorker-15] Task create_task[29c153ce-65c5-48c0-bace-828bdc3f9a9c] succeeded in 2.0240858340002887s: 'It\'s mailing time!'
+[2022-04-21 06:42:55,794: INFO/MainProcess] Received task: create_task[42c3567e-5d37-47f6-9efe-86f89c04432d]  
+[2022-04-21 06:43:37,257: INFO/MainProcess] Terminating 42c3567e-5d37-47f6-9efe-86f89c04432d (Signals.SIGTERM)
+[2022-04-21 06:43:37,262: INFO/MainProcess] Received task: create_task[eb05d73d-1150-4dbb-9b16-ee6a63df74bc]  
+[2022-04-21 06:43:37,277: ERROR/MainProcess] Task handler raised error: Terminated(15)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/billiard/pool.py", line 1774, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2022-04-21 06:44:18,762: INFO/MainProcess] Terminating eb05d73d-1150-4dbb-9b16-ee6a63df74bc (Signals.SIGTERM)
+[2022-04-21 06:44:18,766: INFO/MainProcess] Received task: create_task[123e63fa-8f6f-4031-b1ad-1aa327353b2c]  
+[2022-04-21 06:44:18,781: ERROR/MainProcess] Task handler raised error: Terminated(15)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/billiard/pool.py", line 1774, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2022-04-21 06:44:20,794: INFO/ForkPoolWorker-17] Task create_task[123e63fa-8f6f-4031-b1ad-1aa327353b2c] succeeded in 2.026106069000889s: 'It\'s mailing time!'
+[2022-04-21 06:44:45,409: INFO/MainProcess] Received task: create_task[773a76bc-67a0-4447-bb6e-06345b17ce8b]  
+[2022-04-21 06:44:49,925: INFO/MainProcess] Received task: create_task[7363efdf-ef75-42a9-8355-c015e7441622]  
+[2022-04-21 06:58:24,068: INFO/ForkPoolWorker-18] Task create_task[7363efdf-ef75-42a9-8355-c015e7441622] succeeded in 814.1407949119985s: 'It\'s mailing time!'
+[2022-04-21 06:58:24,101: INFO/ForkPoolWorker-17] Task create_task[773a76bc-67a0-4447-bb6e-06345b17ce8b] succeeded in 818.689097077s: 'It\'s mailing time!'
+[2022-04-21 07:02:36,377: INFO/MainProcess] Received task: create_task[5fee6063-6770-4938-8907-95bf6ce8803f]  
+[2022-04-21 07:03:24,089: INFO/MainProcess] Terminating 5fee6063-6770-4938-8907-95bf6ce8803f (Signals.SIGTERM)
+[2022-04-21 07:03:24,092: INFO/MainProcess] Received task: create_task[c01908f7-d2b0-42b0-9b54-c3dd45c2756a]  
+[2022-04-21 07:03:24,109: ERROR/MainProcess] Task handler raised error: Terminated(15)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/billiard/pool.py", line 1774, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2022-04-21 07:03:26,107: INFO/ForkPoolWorker-18] Task create_task[c01908f7-d2b0-42b0-9b54-c3dd45c2756a] succeeded in 2.011632986001132s: 'It\'s mailing time!'
+[2022-04-21 07:04:52,096: INFO/MainProcess] Received task: create_task[e2db35ab-27d3-420c-877e-cf4d54d513eb]  
+[2022-04-21 07:04:54,127: INFO/ForkPoolWorker-19] Task create_task[e2db35ab-27d3-420c-877e-cf4d54d513eb] succeeded in 2.027993828000035s: 'It\'s mailing time!'
+[2022-04-21 07:57:30,499: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 07:57:30,511: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 07:57:31,538: INFO/MainProcess] mingle: all alone
+[2022-04-21 07:57:31,551: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 07:57:35,905: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 07:59:50,600: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 07:59:50,611: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 07:59:51,634: INFO/MainProcess] mingle: all alone
+[2022-04-21 07:59:51,655: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 07:59:55,740: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:01:49,059: INFO/MainProcess] Received task: create_task[142c790e-12b8-4d8f-a140-c30e1273dba8]  
+[2022-04-21 08:01:52,194: INFO/ForkPoolWorker-15] Task create_task[142c790e-12b8-4d8f-a140-c30e1273dba8] succeeded in 3.1323820049983624s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:03:33,246: INFO/MainProcess] Received task: create_task[5415bf8f-63fe-4d67-aacf-625f9ac71225]  
+[2022-04-21 08:03:36,192: INFO/ForkPoolWorker-15] Task create_task[5415bf8f-63fe-4d67-aacf-625f9ac71225] succeeded in 2.9435768449984607s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:04:10,170: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:04:10,182: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:04:11,206: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:04:11,218: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:04:15,633: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:04:41,696: INFO/MainProcess] Received task: create_task[48fbda35-e88f-4765-9d83-03c859ba643f]  
+[2022-04-21 08:04:44,679: INFO/ForkPoolWorker-15] Task create_task[48fbda35-e88f-4765-9d83-03c859ba643f] succeeded in 2.9795306289997825s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:05:01,690: INFO/MainProcess] Received task: create_task[5bade781-7722-4e35-b8ad-c553184e1973]  
+[2022-04-21 08:05:04,658: INFO/ForkPoolWorker-15] Task create_task[5bade781-7722-4e35-b8ad-c553184e1973] succeeded in 2.9666508779992s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:05:34,261: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:05:34,271: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:05:35,293: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:05:35,305: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:05:39,780: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:06:00,296: INFO/MainProcess] Received task: create_task[f2b84417-9167-416d-87d2-d7c3c7e79ce5]  
+[2022-04-21 08:06:03,282: INFO/ForkPoolWorker-15] Task create_task[f2b84417-9167-416d-87d2-d7c3c7e79ce5] succeeded in 2.983829610002431s: 'Finish sending emails[400, 400, 400]'
+[2022-04-21 08:07:38,430: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:07:38,440: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:07:39,464: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:07:39,478: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:07:43,240: INFO/MainProcess] Received task: create_task[2836304a-7ece-4a71-ae2d-4ced3493ae0b]  
+[2022-04-21 08:07:43,812: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:07:46,421: INFO/ForkPoolWorker-15] Task create_task[2836304a-7ece-4a71-ae2d-4ced3493ae0b] succeeded in 3.178781712002092s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:15:12,865: INFO/MainProcess] Received task: create_task[f754e67f-e1e6-4a17-b0ff-9961bf59edba]  
+[2022-04-21 08:15:15,868: INFO/ForkPoolWorker-15] Task create_task[f754e67f-e1e6-4a17-b0ff-9961bf59edba] succeeded in 3.000487705001433s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:15:29,707: INFO/MainProcess] Received task: create_task[75af21a8-0f09-41c5-be5b-c713cfc70130]  
+[2022-04-21 08:15:32,662: INFO/ForkPoolWorker-15] Task create_task[75af21a8-0f09-41c5-be5b-c713cfc70130] succeeded in 2.9519254959996033s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:15:56,156: INFO/MainProcess] Received task: create_task[ad883886-4319-4a80-9ec5-899011b1b722]  
+[2022-04-21 08:15:59,193: INFO/ForkPoolWorker-15] Task create_task[ad883886-4319-4a80-9ec5-899011b1b722] succeeded in 3.034593907999806s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:16:32,804: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:16:32,816: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:16:33,842: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:16:33,856: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:16:38,100: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:16:39,332: INFO/MainProcess] Received task: create_task[492fc36b-7aaa-46a9-9db2-e36243ca2792]  
+[2022-04-21 08:16:42,305: INFO/ForkPoolWorker-15] Task create_task[492fc36b-7aaa-46a9-9db2-e36243ca2792] succeeded in 2.9704916189984942s: 'Finish sending emails[\'{"id": 28, "phone": 12345678910, "text": "test"}\', \'{"id": 29, "phone": 1234567890, "text": "test"}\', \'{"id": 30, "phone": 10234567890, "text": "test"}\']'
+[2022-04-21 08:18:02,704: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:18:02,716: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:18:03,741: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:18:03,753: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:18:07,980: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:18:13,742: INFO/MainProcess] Received task: create_task[bdf4e8fa-61e5-4d9d-8cbf-30f432e0f166]  
+[2022-04-21 08:18:16,805: INFO/ForkPoolWorker-15] Task create_task[bdf4e8fa-61e5-4d9d-8cbf-30f432e0f166] succeeded in 3.0603543249999348s: 'Finish sending emails[\'\', \'\', \'\']'
+[2022-04-21 08:19:21,907: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:19:21,919: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:19:22,944: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:19:22,958: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:19:26,992: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:19:28,340: INFO/MainProcess] Received task: create_task[ebcce8ea-3cd4-46f1-b31f-a5e7032599cf]  
+[2022-04-21 08:19:31,345: INFO/ForkPoolWorker-15] Task create_task[ebcce8ea-3cd4-46f1-b31f-a5e7032599cf] succeeded in 3.0028515480007627s: 'Finish sending emails[\'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\']'
+[2022-04-21 08:21:21,284: INFO/MainProcess] Received task: create_task[848adb49-bfff-4760-a9bf-8f4a6b0271db]  
+[2022-04-21 08:21:24,269: INFO/ForkPoolWorker-15] Task create_task[848adb49-bfff-4760-a9bf-8f4a6b0271db] succeeded in 2.9820680220000213s: 'Finish sending emails[\'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\']'
+[2022-04-21 08:21:36,322: INFO/MainProcess] Received task: create_task[d02f55ca-af1e-43e6-bdc3-47b88cb5a05d]  
+[2022-04-21 08:21:40,967: INFO/ForkPoolWorker-15] Task create_task[d02f55ca-af1e-43e6-bdc3-47b88cb5a05d] succeeded in 4.642288974999246s: 'Finish sending emails[\'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\']'
+[2022-04-21 08:22:02,256: INFO/MainProcess] Received task: create_task[ceb07144-43d2-4971-825c-74e175f0254e]  
+[2022-04-21 08:22:20,964: INFO/ForkPoolWorker-15] Task create_task[ceb07144-43d2-4971-825c-74e175f0254e] succeeded in 18.706421415001387s: 'Finish sending emails[\'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\']'
+[2022-04-21 08:26:04,897: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:26:04,907: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:26:05,930: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:26:05,944: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:26:09,424: INFO/MainProcess] Received task: create_task[1d3ca83e-6fba-42c3-a387-b5e733a163f3]  
+[2022-04-21 08:26:10,185: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:26:12,502: INFO/ForkPoolWorker-15] Task create_task[1d3ca83e-6fba-42c3-a387-b5e733a163f3] succeeded in 3.0771376869997766s: 'Finish sending emails[\'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\', \'{"code":0,"message":"OK"}\']'
+[2022-04-21 08:29:51,123: INFO/MainProcess] Received task: create_task[73b6d699-2635-4bd6-829a-a4bf96f687d5]  
+[2022-04-21 08:29:53,143: INFO/ForkPoolWorker-15] Task create_task[73b6d699-2635-4bd6-829a-a4bf96f687d5] succeeded in 2.017331415998342s: 'Finish sending emails[]'
+[2022-04-21 08:48:07,814: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:48:07,824: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:48:08,849: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:48:08,862: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:48:13,201: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 08:49:31,685: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 08:49:31,695: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 08:49:32,718: INFO/MainProcess] mingle: all alone
+[2022-04-21 08:49:32,730: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 08:49:37,121: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:11:04,394: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:11:04,407: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:11:05,435: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:11:05,449: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:11:09,854: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:12:15,446: INFO/MainProcess] Received task: create_task[943d635d-c86b-43ff-a0d5-bcc6dc32562b]  
+[2022-04-21 09:12:18,552: INFO/ForkPoolWorker-15] Task create_task[943d635d-c86b-43ff-a0d5-bcc6dc32562b] succeeded in 3.102816940001503s: 'Finish sending emails'
+[2022-04-21 09:13:47,085: INFO/MainProcess] Received task: create_task[dede16b2-8fb3-4879-9220-e05ba9fccd3c]  
+[2022-04-21 09:13:50,040: INFO/ForkPoolWorker-15] Task create_task[dede16b2-8fb3-4879-9220-e05ba9fccd3c] succeeded in 2.9526496429971303s: 'Finish sending emails'
+[2022-04-21 09:17:57,583: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:17:57,593: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:17:58,619: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:17:58,631: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:18:00,206: INFO/MainProcess] Received task: create_task[eb92405f-f3cf-4f1c-99f6-013dd36a11eb]  
+[2022-04-21 09:18:02,944: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:18:03,234: INFO/ForkPoolWorker-15] Task create_task[eb92405f-f3cf-4f1c-99f6-013dd36a11eb] succeeded in 3.026000596000813s: 'Finish sending emails'
+[2022-04-21 09:21:59,768: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:21:59,781: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:22:00,806: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:22:00,818: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:22:05,125: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:22:11,929: INFO/MainProcess] Received task: create_task[ece4ec9d-1d54-46d9-871b-c05e2a43e439]  
+[2022-04-21 09:22:14,929: INFO/ForkPoolWorker-15] Task create_task[ece4ec9d-1d54-46d9-871b-c05e2a43e439] succeeded in 2.9973618690019066s: 'Finish sending emails'
+[2022-04-21 09:23:47,579: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:23:47,590: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:23:48,615: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:23:48,629: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:23:51,656: INFO/MainProcess] Received task: create_task[2c212165-bb58-484f-b10c-a4b886426a10]  
+[2022-04-21 09:23:52,973: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:23:54,736: INFO/ForkPoolWorker-15] Task create_task[2c212165-bb58-484f-b10c-a4b886426a10] succeeded in 3.078785883997625s: 'Finish sending emails'
+[2022-04-21 09:25:17,484: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:25:17,495: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:25:18,517: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:25:18,531: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:25:21,337: INFO/MainProcess] Received task: create_task[b980717c-d389-4798-b3db-0d382916c33b]  
+[2022-04-21 09:25:22,908: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:25:24,569: INFO/ForkPoolWorker-15] Task create_task[b980717c-d389-4798-b3db-0d382916c33b] succeeded in 3.2309495609988517s: 'Finish sending emails'
+[2022-04-21 09:26:18,404: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 09:26:18,417: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 09:26:19,441: INFO/MainProcess] mingle: all alone
+[2022-04-21 09:26:19,452: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 09:26:22,744: INFO/MainProcess] Received task: create_task[3dd7448c-f3b8-425e-9e0c-b6943d513d6b]  
+[2022-04-21 09:26:23,789: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 09:26:25,776: INFO/ForkPoolWorker-15] Task create_task[3dd7448c-f3b8-425e-9e0c-b6943d513d6b] succeeded in 3.0301654979994055s: 'Finish sending emails'
+[2022-04-21 10:43:28,726: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 10:43:28,739: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 10:43:29,761: INFO/MainProcess] mingle: all alone
+[2022-04-21 10:43:29,773: INFO/MainProcess] celery@b337a5d27482 ready.
+[2022-04-21 10:43:34,046: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 11:14:47,145: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 11:14:47,155: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 11:14:48,178: INFO/MainProcess] mingle: all alone
+[2022-04-21 11:14:48,191: INFO/MainProcess] celery@227ff132f756 ready.
+[2022-04-21 11:14:52,784: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 11:17:32,850: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-04-21 11:17:32,862: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-21 11:17:33,884: INFO/MainProcess] mingle: all alone
+[2022-04-21 11:17:33,896: INFO/MainProcess] celery@b4fc7a49fcc2 ready.
+[2022-04-21 11:17:38,356: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-21 11:19:15,536: INFO/MainProcess] Received task: create_task[f41ecd4c-dfa2-4c9d-9479-44ca06bebbd0]  
+[2022-04-21 11:19:18,016: INFO/ForkPoolWorker-15] Task create_task[f41ecd4c-dfa2-4c9d-9479-44ca06bebbd0] succeeded in 2.4758484209996823s: 'Finish sending emails'
